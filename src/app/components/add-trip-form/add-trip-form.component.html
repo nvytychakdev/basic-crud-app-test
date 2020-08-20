@@ -1,0 +1,4 @@
+<div class="add-trip-form">
+  <input class="name-input" type="text" (keyup.enter)="addTrip(tripName)" placeholder="Trip name" [(ngModel)]="tripName">
+  <button submit class="add-btn" (click)="addTrip(tripName)" [disabled]="!tripName">Add Trip</button>
+</div>

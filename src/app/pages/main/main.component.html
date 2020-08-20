@@ -1,0 +1,27 @@
+<div class="main-page">
+  <div class="main-header">
+    <span class="main-header-title">Trips List</span>
+  </div>
+
+  <div class="main-body">
+
+    <ul class="trips-list">
+      <li class="trips-list-item" *ngFor="let trip of trips">
+
+        <app-trip
+          [tripId]="trip.id"
+          [name]="trip.name"
+          [visited]="trip.visited"
+          (removeEvent)="onTripRemoved($event)">
+        </app-trip>
+
+      </li>
+    </ul>
+
+    <div class="trips-form">
+      <app-add-trip-form (addEvent)="onTripAdded($event)"></app-add-trip-form>
+    </div>
+
+  </div>
+
+</div>

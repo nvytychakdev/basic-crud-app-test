@@ -1,0 +1,32 @@
+.add-trip-form {
+  width: 100%;
+  display: flex;
+
+  .name-input {
+    flex: 1;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px;
+    padding: 1rem .5rem;
+    margin-right: 1rem;
+  }
+
+  .add-btn {
+    background: rgb(41, 156, 37);
+    color: white;
+    padding: .75rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .5s all;
+
+    &:hover {
+      background: rgb(60, 172, 56);
+    }
+
+    &:disabled {
+      background: rgb(97, 97, 97);
+    }
+
+  }
+
+}
