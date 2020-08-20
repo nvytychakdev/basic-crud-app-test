@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `npm i` to install all dependancies before running the app.
 
-Run `npm run back-end` for a bakc-end dev server (build with json-server). Back-end environment working on `http://localhost:3000`.
+Run `npm run back-end` for a back-end dev server (build with json-server). Back-end environment working on `http://localhost:3000`.
 
 Run `ng serve` to start a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
